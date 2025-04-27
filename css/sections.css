@@ -103,6 +103,17 @@
     margin-bottom: 50px;
 }
 
+.timeline-date {
+    position: absolute;
+    top: -20px; /* antes top: 0 */
+    right: 40px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 8px 16px;
+    border-radius: var(--border-radius-lg);
+    font-weight: 600;
+}
+
 .timeline-item:nth-child(odd) {
     left: 0;
     padding-right: 40px;
@@ -115,7 +126,7 @@
 
 .timeline-date {
     position: absolute;
-    top: 0;
+    top: 10;
     right: 40px;
     background-color: var(--primary-color);
     color: var(--white-color);

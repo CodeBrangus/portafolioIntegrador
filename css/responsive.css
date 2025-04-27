@@ -41,13 +41,15 @@
     }
     
     .timeline-date {
-        right: auto;
-        left: 0;
+        top: -40px;
+        left: 20px;
+        right:auto;
     }
     
     .timeline-item:nth-child(odd) .timeline-date {
         right: auto;
-        left: 0;
+        left: 20px;
+        top:-40px;
     }
     
     /* Grids responsivos */
