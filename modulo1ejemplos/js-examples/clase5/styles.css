@@ -107,6 +107,7 @@ nav a:hover {
     margin: 10px 0;
 }
 
+/*PUNTO 6*/
 .error {
     position: fixed;
     bottom: 20px;
@@ -129,6 +130,7 @@ nav a:hover {
     pointer-events: auto;
 }
 
+/*PUNTO 7*/
 @media screen and (max-width: 600px) {
     body {
         margin: 10px;

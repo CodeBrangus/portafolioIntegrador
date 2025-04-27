@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #e85a50;
+    background-color: #e85a50; /*Punto 1*/
   }
 
   /* Contenedor fluido */
@@ -22,7 +22,7 @@ body {
 
   /* Estilo de cada tarjeta */
   .card {
-    background: #feffd6;
+    background: #feffd6; /*Punto 1*/
     padding: 1.5rem;
     border-radius: 8px;
     text-align: center;
@@ -40,6 +40,7 @@ body {
     transition: transform 0.3s ease;
   }
 
+  /*Punto 1 Seccion añadida*/
   .product-data {
     padding: 0rem 1rem 1rem 1rem;
     border-radius: 8px;

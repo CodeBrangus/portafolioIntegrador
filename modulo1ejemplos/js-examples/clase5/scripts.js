@@ -82,6 +82,7 @@ function calcularFactorial() {
         `${numero}! = ${resultado}`;
 }
 
+//PUNTO 3
 // 7. Cálculo de IMC
 function imc(peso, altura) {
     return peso / ((altura /100) * (altura/100));
@@ -92,7 +93,7 @@ function calcularIMC() {
     const altura = parseFloat(document.getElementById('altura').value);
     const resultadoDiv = document.getElementById('resultadoIMC');
 
-    // Verificacion campos vacios
+    // Verificacion campos vacios PUNTO 4
     if (!peso || !altura) {
         resultadoDiv.innerHTML = 'Por favor ingresa bien ambos valores (peso y altura).';
         return;
