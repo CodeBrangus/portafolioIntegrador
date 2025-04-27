@@ -217,6 +217,7 @@ async function pokemonPorNombre() {
     }
 }
 
+//PUNTO 5
 // API de Rick y Morty
 async function serchCharacter() {
     const id = document.getElementById("characterId").value;
